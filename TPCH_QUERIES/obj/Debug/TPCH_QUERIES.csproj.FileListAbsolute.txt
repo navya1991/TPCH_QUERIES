@@ -1,0 +1,6 @@
+c:\users\navya\documents\visual studio 2012\Projects\TPCH_QUERIES\TPCH_QUERIES\bin\Debug\TPCH_QUERIES.exe.config
+c:\users\navya\documents\visual studio 2012\Projects\TPCH_QUERIES\TPCH_QUERIES\bin\Debug\TPCH_QUERIES.exe
+c:\users\navya\documents\visual studio 2012\Projects\TPCH_QUERIES\TPCH_QUERIES\bin\Debug\TPCH_QUERIES.pdb
+c:\users\navya\documents\visual studio 2012\Projects\TPCH_QUERIES\TPCH_QUERIES\obj\Debug\TPCH_QUERIES.csprojResolveAssemblyReference.cache
+c:\users\navya\documents\visual studio 2012\Projects\TPCH_QUERIES\TPCH_QUERIES\obj\Debug\TPCH_QUERIES.exe
+c:\users\navya\documents\visual studio 2012\Projects\TPCH_QUERIES\TPCH_QUERIES\obj\Debug\TPCH_QUERIES.pdb
