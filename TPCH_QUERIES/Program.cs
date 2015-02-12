@@ -73,6 +73,7 @@ namespace TPCH_QUERIES
             while (true) { };
          }
 
+        /*funciton to group by 2 attributes and use aggregate functions */
         void GroupByMultipleAttributes()
         {
             var ds = new DataSet();
