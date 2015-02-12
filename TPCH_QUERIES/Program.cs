@@ -95,23 +95,29 @@ namespace TPCH_QUERIES
                                        orderby ig.Key
                                        select new { L_ShipInstruct = ig.Key, L_QuantitySum = ig.Sum(x => x.Field<int>("L_Quantity")) } //ig.Count()
                       };
-            foreach (var g in res)
+
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\Navya\Documents\Visual Studio 2012\Projects\TPCH_QUERIES\TPCH_QUERIES\outputs\groupbymultiple.txt"))
             {
-                Console.WriteLine("L_ShipMode: {0}", g.L_ShipMode);             
-                foreach (var h in g.outergroup)
+                foreach (var g in res)
                 {
-                    Console.WriteLine("L_ShipInstruct: {0}",h.L_ShipInstruct);
-                    Console.WriteLine("Sum {0}",h.L_QuantitySum);
-                   /* foreach (var i in h.innergroup)
+                   file.WriteLine("L_ShipMode: {0}", g.L_ShipMode);
+                   Console.WriteLine("L_ShipMode: {0}", g.L_ShipMode);
+                    foreach (var h in g.outergroup)
                     {
-                        Console.WriteLine("L_Quantity: {0}", i.Field<int>("L_Quantity"));
-                    }*/
+                       file.WriteLine("L_ShipInstruct: {0}", h.L_ShipInstruct);
+                       file.WriteLine("Sum {0}", h.L_QuantitySum);
                     
+                        /* foreach (var i in h.innergroup)
+                         {
+                             Console.WriteLine("L_Quantity: {0}", i.Field<int>("L_Quantity"));
+                         }*/
+
+                   }
+        
+
                 }
-                
-
             }
-
+            Console.WriteLine("done");
             con.Close();
             while (true) { };
 

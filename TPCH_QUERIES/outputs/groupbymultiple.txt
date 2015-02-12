@@ -1,0 +1,63 @@
+L_ShipMode: AIR
+L_ShipInstruct: COLLECT COD
+Sum 5484720
+L_ShipInstruct: DELIVER IN PERSON
+Sum 5476469
+L_ShipInstruct: NONE
+Sum 5470847
+L_ShipInstruct: TAKE BACK RETURN
+Sum 5479423
+L_ShipMode: FOB
+L_ShipInstruct: COLLECT COD
+Sum 5468803
+L_ShipInstruct: DELIVER IN PERSON
+Sum 5466167
+L_ShipInstruct: NONE
+Sum 5447351
+L_ShipInstruct: TAKE BACK RETURN
+Sum 5477649
+L_ShipMode: MAIL
+L_ShipInstruct: COLLECT COD
+Sum 5464572
+L_ShipInstruct: DELIVER IN PERSON
+Sum 5452258
+L_ShipInstruct: NONE
+Sum 5461227
+L_ShipInstruct: TAKE BACK RETURN
+Sum 5481082
+L_ShipMode: RAIL
+L_ShipInstruct: COLLECT COD
+Sum 5472168
+L_ShipInstruct: DELIVER IN PERSON
+Sum 5456194
+L_ShipInstruct: NONE
+Sum 5467243
+L_ShipInstruct: TAKE BACK RETURN
+Sum 5453316
+L_ShipMode: REG AIR
+L_ShipInstruct: COLLECT COD
+Sum 5460933
+L_ShipInstruct: DELIVER IN PERSON
+Sum 5445337
+L_ShipInstruct: NONE
+Sum 5482173
+L_ShipInstruct: TAKE BACK RETURN
+Sum 5470985
+L_ShipMode: SHIP
+L_ShipInstruct: COLLECT COD
+Sum 5479903
+L_ShipInstruct: DELIVER IN PERSON
+Sum 5494624
+L_ShipInstruct: NONE
+Sum 5467483
+L_ShipInstruct: TAKE BACK RETURN
+Sum 5453308
+L_ShipMode: TRUCK
+L_ShipInstruct: COLLECT COD
+Sum 5441168
+L_ShipInstruct: DELIVER IN PERSON
+Sum 5472503
+L_ShipInstruct: NONE
+Sum 5479691
+L_ShipInstruct: TAKE BACK RETURN
+Sum 5451198
